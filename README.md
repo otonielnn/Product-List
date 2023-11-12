@@ -1,0 +1,2 @@
+# Product-List
+Uma RESTful API para listar produtos desenvolvida com os conhecimentos aprendidos no Ebook [Spring Boot - da API REST aos Microservices](https://www.michellibrito.com/) e no [Curso de Spring Boot 2023](https://www.youtube.com/watch?v=wlYvA2b1BWI&t=4112s) ambos da Michelli Brito.
