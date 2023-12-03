@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+    background-color: steelblue;
+    padding: 12px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    opacity: 0.8;
+    margin: auto 20px auto 0;
+}
+
+nav a:hover {
+    opacity: 1;
+}
+
+main {
+    background-color: antiquewhite;
+    padding: 32px;
+}
+
+main h1 {
+    margin: 12px auto;
+}

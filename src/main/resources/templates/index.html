@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <script src="../static/js/main.js" defer></script>
+    <title>Product List</title>
+  </head>
+  <body onload="allProductsList()">
+    <nav>
+      <div id="logo-container">
+        <a href="index.html">
+          <div id="logo"></div>
+        </a>
+        <a href="index.html"><h2>Estoque</h2></a>
+      </div>
+
+      <div id="opcoes-nav">
+        <a href="newProduct.html">Adicionar novo Produto</a>
+        <a href="searchById.html">Buscar por um Produto</a>
+        <a href="deleteProduct.html">Apagar Produto</a>
+        <a href="updateProduct.html">Atualizar Produto</a>
+      </div>
+    </nav>
+
+    <main>
+      <h1>Lista de  Todos os Produtos</h1>
+
+      <div id="container">
+        <ul id="productsList"></ul>
+      </div>
+    </main>
+  </body>
+</html>

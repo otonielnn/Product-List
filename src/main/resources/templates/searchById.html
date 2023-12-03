@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <script src="../static/js/main.js" defer></script>
+    <title>Search for ID</title>
+  </head>
+  <body>
+    <nav>
+      <div id="logo-container">
+        <a href="index.html">
+          <div id="logo"></div>
+        </a>
+        <a href="index.html"><h2>Estoque</h2></a>
+      </div>
+
+      <div id="opcoes-nav">
+        <a href="newProduct.html">Adicionar novo Produto</a>
+        <a href="searchForId.html">Buscar por um Produto</a>
+        <a href="deleteProduct.html">Apagar Produto</a>
+        <a href="updateProduct.html">Atualizar Produto</a>
+      </div>
+    </nav>
+
+    <main>
+      <h1>Qual produto deseja buscar?</h1>
+
+      <div id="form">
+        <label for="id">Id do produto: </label>
+        <input id="idProduct" type="text" name="id" id="id">
+        <button onclick="searchById()">Buscar</button>
+      </div>
+
+      <div id="container">
+        <ul id="productFindById"></ul>
+      </div>
+    </main>
+  </body>
+</html>
